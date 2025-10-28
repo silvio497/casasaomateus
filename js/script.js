@@ -15,7 +15,7 @@ const CONFIG = {
         interval: 8000,
         totalItems: 3
     },
-    pixKey: 'doesaomateus@gmail.com'
+    pixKey: 'aninhasillva150@gmail.com'
 };
 
 // Estado da aplicação
